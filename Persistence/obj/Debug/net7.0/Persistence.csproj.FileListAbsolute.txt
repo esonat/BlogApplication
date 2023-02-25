@@ -1,0 +1,15 @@
+D:\NetWorkspace\BlogApplication\Blog\Persistence\bin\Debug\net7.0\Persistence.deps.json
+D:\NetWorkspace\BlogApplication\Blog\Persistence\bin\Debug\net7.0\Persistence.dll
+D:\NetWorkspace\BlogApplication\Blog\Persistence\bin\Debug\net7.0\Persistence.pdb
+D:\NetWorkspace\BlogApplication\Blog\Persistence\bin\Debug\net7.0\Domain.dll
+D:\NetWorkspace\BlogApplication\Blog\Persistence\bin\Debug\net7.0\Domain.pdb
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.dll
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.pdb
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\ref\Persistence.dll
