@@ -28,6 +28,9 @@
             "projectReferences": {
               "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj": {
                 "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj"
+              },
+              "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -46,9 +49,13 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
-            "MediatR": {
+            "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -57,6 +64,12 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -68,7 +81,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.27.0, )"
+              "version": "[6.25.0, )"
             }
           },
           "imports": [
@@ -139,9 +152,13 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
-            "MediatR": {
+            "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[11.2.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -227,6 +244,69 @@
         }
       }
     },
+    "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
+        "outputPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj": {
+                "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -272,6 +352,12 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

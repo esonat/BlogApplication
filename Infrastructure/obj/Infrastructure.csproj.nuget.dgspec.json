@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "d:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj": {
+    "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj",
+        "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
-        "outputPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Application\\obj\\",
+        "outputPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "d:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj"
+              "D:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj"
               },
-              "d:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj": {
-                "projectPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj"
+              "D:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -49,9 +49,13 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
-            "MediatR": {
+            "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[11.2.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -78,14 +82,14 @@
         }
       }
     },
-    "d:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj": {
+    "D:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj",
+        "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
-        "outputPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\obj\\",
+        "outputPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -137,14 +141,14 @@
         }
       }
     },
-    "d:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
-        "outputPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\obj\\",
+        "outputPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -159,8 +163,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "d:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj": {
-                "projectPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj"
+              "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj": {
+                "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Application\\Application.csproj"
               }
             }
           }
@@ -200,14 +204,14 @@
         }
       }
     },
-    "d:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj": {
+    "D:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
-        "outputPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\obj\\",
+        "outputPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -222,8 +226,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "d:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj"
+              "D:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\NetWorkspace\\BlogApplication\\Blog\\Domain\\Domain.csproj"
               }
             }
           }
@@ -245,6 +249,12 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

@@ -13,3 +13,5 @@ D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.dl
 D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\refint\Persistence.dll
 D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.pdb
 D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\ref\Persistence.dll
+D:\NetWorkspace\BlogApplication\Blog\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
+D:\NetWorkspace\BlogApplication\Blog\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache

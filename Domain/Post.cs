@@ -10,6 +10,7 @@ namespace Domain
         public Guid Id { get; set; }
         public string Title { get; set; }
         public DateTime Date { get; set; }
+        public AppUser User { get; set; }
         public string Category { get; set; }
         public string Text { get; set; }
     }

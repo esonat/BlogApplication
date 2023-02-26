@@ -2,8 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Core;
+using Application.Interfaces;
+using Application.Posts;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using Infrastructure.Security;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Persistence;
+
 
 namespace API.Extensions
 {
@@ -58,16 +67,18 @@ namespace API.Extensions
                         .WithOrigins("http://localhost:3000", "https://localhost:3000");
                 });
             });
+            //services.AddMediatR(typeof(Application.Posts.List.Handler));
+
             services.AddMediatR(typeof(Application.Posts.List.Handler));
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
             services.AddFluentValidationAutoValidation();
             services.AddValidatorsFromAssemblyContaining<Create>();
             services.AddHttpContextAccessor();
             services.AddScoped<IUserAccessor, UserAccessor>();
-            services.AddScoped<IPhotoAccessor, PhotoAccessor>();
-            services.AddScoped<EmailSender>();
-            services.Configure<CloudinarySettings>(config.GetSection("Cloudinary"));
-            services.AddSignalR();
+            //services.AddScoped<IPhotoAccessor, PhotoAccessor>();
+            //services.AddScoped<EmailSender>();
+            //services.Configure<CloudinarySettings>(config.GetSection("Cloudinary"));
+            //services.AddSignalR();
 
             return services;
         }
